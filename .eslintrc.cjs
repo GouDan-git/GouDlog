@@ -16,4 +16,5 @@ module.exports = {
   parserOptions: {
     ecmaVersion: "latest",
   },
+  endOfLine: "auto",
 };
