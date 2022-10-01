@@ -1,9 +1,7 @@
 <script setup lang="ts">
-import TheWelcome from "../components/TheWelcome.vue";
+import Layout from "@/components/layout/LayoutIndex.vue";
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <Layout />
 </template>
