@@ -10,16 +10,11 @@ const router = createRouter({
       component: LayoutView,
       children: [
         {
-          path: "/",
-          name: "index",
-          component: () => import("../views/HomeView.vue"),
+          path: "/picture",
+          name: "picture",
+          component: () => import("../components/happiness/picture.vue"),
         },
       ],
-    },
-    {
-      path: "/about",
-      name: "about",
-      component: () => import("../views/HomeView.vue"),
     },
   ],
 });

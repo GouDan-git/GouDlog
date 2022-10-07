@@ -1,0 +1,9 @@
+<template>
+  <div>
+    <WujieVue
+      name="picture"
+      :url="'http://127.0.0.1:5174/picture'"
+      :sync="true"
+    ></WujieVue>
+  </div>
+</template>

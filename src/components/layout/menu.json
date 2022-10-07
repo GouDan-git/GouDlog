@@ -1,0 +1,9 @@
+[
+    {
+        "name" : "happiness",
+        "children" : [
+            {"name" : "picture", "icon" : "pic"},
+            {"name" : "picture2", "icon" : "pic2"}
+        ]
+    }
+]
