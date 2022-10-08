@@ -1,9 +1,14 @@
 [
     {
         "name" : "happiness",
+        "path" : "/happiness",
         "children" : [
-            {"name" : "picture", "icon" : "pic"},
-            {"name" : "picture2", "icon" : "pic2"}
+            {"name" : "picture", "path" : "/happiness/picture", "icon" : "pic"},
+            {"name" : "picture2", "path" : "/happiness/picture2", "icon" : "pic2"}
         ]
+    },
+    {
+        "name" : "happiness2",
+        "path" : "/happiness2"
     }
 ]

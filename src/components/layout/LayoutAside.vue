@@ -14,8 +14,8 @@
 <script lang="ts" setup>
 import { ref, watch } from "vue";
 import { Menu as IconMenu } from "@element-plus/icons-vue";
-
 import { useStore } from "vuex";
+
 const store = useStore();
 let asideMenu = ref(store.state.menu.asideMenu);
 watch(
@@ -26,7 +26,7 @@ watch(
 );
 </script>
 
-<style>
+<style lang="scss" scoped>
 .el-menu-vertical {
   height: 100%;
 }
