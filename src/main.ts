@@ -5,6 +5,7 @@ import store from "./store";
 import ElementPlus from "element-plus";
 import WujieVue from "wujie-vue3";
 import * as Icons from "@element-plus/icons-vue";
+import setGlobal from "./global.js";
 
 import "element-plus/dist/index.css";
 import "@/assets/main.scss";
@@ -15,6 +16,7 @@ app.use(router);
 app.use(ElementPlus);
 app.use(WujieVue);
 app.use(store);
+setGlobal(app);
 /**
  * @description element-plus 图标导入 注册全局组件
  */

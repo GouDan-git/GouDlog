@@ -2,8 +2,12 @@
   <div>
     <WujieVue
       name="picture"
-      :url="'http://127.0.0.1:5174/picture'"
+      :url="proxy.$happinessAddress + 'picture'"
       :sync="true"
     ></WujieVue>
   </div>
 </template>
+<script lang="ts" setup>
+import { getCurrentInstance } from "vue";
+const { proxy } = getCurrentInstance() as any;
+</script>
